@@ -1,33 +1,61 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Гра "Камінь, ножиці, папір"</title>
+    <title>Choise version game</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-            display: flex;
-            padding: 50px;
-        }
-        #results {
-            margin-top: 20px;
-            font-size: 1.2em;
-        }
-        #final-result {
-            font-weight: bold;
-            margin-top: 20px;
-            font-size: 1.5em;
-        }
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 30px;
+    width: 100%;
+
+}
+
+/* div {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 300px;
+width: 400px;
+/* border: 2px  solid red; 
+
+} */
+ul {
+display: flex;
+align-items: center;
+flex-direction: row;
+gap: 30px;
+text-transform: uppercase;
+list-style-type:none ;
+width:100%;
+}
+a {
+    padding: 50px;
+    text-decoration: none;
+color:darkblue;
+border: 3px solid;
+border-radius: 20px;
+
+
+}
+
     </style>
 </head>
 <body>
-    <h1>Гра "Камінь, ножиці, папір"</h1>
-    <div id="results"></div>
-    <div id="final-result"></div>
-
-    <script src="game.js"></script>
+    <div>  
+        <nav>
+            <ul>
+              <li><a href="ver1/index.html">Output your play in page </a></li>
+               <li><a href="ver2/index.html">Console version</a></li>
+                <li><a href="ver3/index.html">Play on page</a></li>
+            </ul>
+        </nav>
+    </div>
+    
 </body>
 </html>
