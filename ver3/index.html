@@ -9,24 +9,38 @@
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 50px;
-            display: flex;
-            padding: 50px;
+        }
+        .buttons button {
+            font-size: 1.2em;
+            padding: 10px 20px;
+            margin: 10px;
         }
         #results {
             margin-top: 20px;
             font-size: 1.2em;
         }
+        #score {
+            margin-top: 20px;
+            font-size: 1.5em;
+        }
         #final-result {
             font-weight: bold;
             margin-top: 20px;
-            font-size: 1.5em;
+            font-size: 2em;
+            color: rgb(154, 109, 101);
         }
     </style>
 </head>
 <body>
-    <!-- <h1>Гра "Камінь, ножиці, папір"</h1>
+    <h1>Гра "Камінь, ножиці, папір"</h1>
+    <div class="buttons">
+        <button id="rock">Камінь</button>
+        <button id="scissors">Ножиці</button>
+        <button id="paper">Папір</button>
+    </div>
     <div id="results"></div>
-    <div id="final-result"></div> -->
+    <div id="score"></div>
+    <div id="final-result"></div>
 
     <script src="input_in_html.js"></script>
 </body>
