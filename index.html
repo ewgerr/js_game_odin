@@ -13,35 +13,41 @@ body {
     font-weight: 500;
     font-size: 30px;
     width: 100%;
-
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
 }
 
-/* div {
-display: flex;
-align-items: center;
-justify-content: center;
-height: 300px;
-width: 400px;
-/* border: 2px  solid red; 
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
-} */
 ul {
-display: flex;
-align-items: center;
-flex-direction: row;
-gap: 30px;
-text-transform: uppercase;
-list-style-type:none ;
-width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    text-transform: uppercase;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
+
 a {
-    padding: 50px;
+    padding: 20px 20px;
     text-decoration: none;
-color:darkblue;
-border: 3px solid;
-border-radius: 20px;
+    color: darkblue;
+    border: 3px solid darkblue;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
 
-
+a:hover {
+    background-color: darkblue;
+    color: white;
 }
 
     </style>
@@ -53,6 +59,7 @@ border-radius: 20px;
               <li><a href="ver1/index.html">Output your play in page </a></li>
                <li><a href="ver2/index.html">Console version</a></li>
                 <li><a href="ver3/index.html">Play on page</a></li>
+                <li><a href="Etch-a-Sketch/index.html">Pixel Art</a></li>
             </ul>
         </nav>
     </div>
